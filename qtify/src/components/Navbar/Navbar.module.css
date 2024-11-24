@@ -7,4 +7,12 @@
     align-items: center;
     justify-content: space-between;
   }
+  .logo {
+    height:40px;
+    cursor:pointer;
+  }
+  :root {
+    --color-primary:#1a1a1a;
+    --color-secondary:#00ff00;
+  }
   

@@ -10,11 +10,11 @@ import SearchIcon from "@mui/icons-material/Search";
 function Navbar({ searchData }) {
   return (
     <AppBar position="static" style={{backgroundColor:"#1a1a1a",padding:"8px 16px"}}>
-      <Toolbar style={{dispaly:"flex",justifyContent:"space-between",alignItems:"center"}}></Toolbar>
-    <nav className={styles.navbar}> 
+      <Toolbar style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+    {/* <nav className={styles.navbar}>  */}
       <Link to="/" style={{textDecoration:"none"}}>
         <img
-           src={require("../../assets/group1(1).png")}
+           src={require("../../assets/group1.png")}
            alt="QTify Logo"
            className={styles.logo}
            />
@@ -61,9 +61,9 @@ function Navbar({ searchData }) {
       >
             Give Feedback
       </Button>
-     </Toolbar>
-     </nav> 
-   </AppBar> 
+      {/* </nav>  */}
+      </Toolbar>
+    </AppBar> 
   );
 }
 

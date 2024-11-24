@@ -10,7 +10,8 @@ function Hero() {
       </div>
       <div>
         <img
-          src={require("../../assets/hero_headphones.png")}
+          className={styles.headphonesImage}
+          src={require("../../assets/vibrating-headphones.png")}
           width={212}
           alt="headphones"
         />
